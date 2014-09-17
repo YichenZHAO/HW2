@@ -14,5 +14,6 @@ library(ggplot2)
 gData <- read.delim("gapminderDataFiveYear.txt")
 colname(gData)
 class(gData$year)
+qplot(pop, lifeExp)
 ```
 
