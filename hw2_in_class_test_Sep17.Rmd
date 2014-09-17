@@ -1,0 +1,18 @@
+---
+title: "HW2"
+author: "Yichen Zhao"
+date: "Wednesday, September 17, 2014"
+output:
+  html_document:
+    keep_md: yes
+---
+
+I will start to put code here 
+
+```{r}
+library(ggplot2)
+gData <- read.delim("gapminderDataFiveYear.txt")
+colname(gData)
+class(gData$year)
+```
+
